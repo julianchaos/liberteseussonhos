@@ -1,4 +1,4 @@
 liberteseussonhos
 =================
 
-Tema WP para o Liberte seus sonhos
+Tema WP para o Liberte Seus Sonhos
