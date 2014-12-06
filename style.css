@@ -15,6 +15,11 @@ br.nobr {
 	padding: 0;
 	clear: both;
 }
+header, section, article, footer {
+	position: relative;
+	z-index: 1;
+}
+
 .container {
 	min-width: 1261px;
 }
@@ -22,6 +27,7 @@ br.nobr {
 /* HEADER */
 header {
 	height: 151px;
+	z-index: 3;
 }
 
 header .bg {
@@ -31,4 +37,20 @@ header .bg {
 header .logo {
 	display: block;
 	margin: -140px auto;
+}
+
+/* Vídeo */
+.content-video {
+	top: -120px;
+}
+.content-video div.iframe {
+	margin: 0 auto;
+	width: 853px;
+	position: relative;
+	top: 260px;
+}
+.content-video > .container > img {
+	display: block;
+	width: 100%;
+	margin-top: -484px;
 }
