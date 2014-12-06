@@ -18,6 +18,8 @@
 	</head>
 	<body <?php body_class(); ?>>
 		<header>
-			<img src="<?php bloginfo('template_directory') ?>/images/header-bg.png" alt="<?php bloginfo('name') ?>" class="bg" />
-			<img src="<?php bloginfo('template_directory') ?>/images/header-logo.png" alt="<?php bloginfo('name') ?>" class="logo" />
+			<div class="container">
+				<img src="<?php bloginfo('template_directory') ?>/images/header-bg.png" alt="<?php bloginfo('name') ?>" class="bg" />
+				<img src="<?php bloginfo('template_directory') ?>/images/header-logo.png" alt="<?php bloginfo('name') ?>" class="logo" />
+			</div>
 		</header>
