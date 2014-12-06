@@ -6,8 +6,5 @@
  * @subpackage liberteseussonhos
  * @since 0.1
  */
-?>
-<?php get_header() ?>
 
-<?php get_footer() ?>
-<!-- EOF -->
+//Silence is golden
