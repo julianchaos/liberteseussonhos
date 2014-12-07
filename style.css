@@ -106,3 +106,22 @@ header .logo {
 .content-namidia .clipping a img {
 	border: 0 solid #FFF;
 }
+
+/* FOOTER */
+footer {
+	background-color: #000;
+	height: 125px;
+	margin-top: 120px;
+}
+footer .message {
+	height: 117px;
+	width: 782px;
+	margin: 0 auto;
+	background: url(images/footer-bg.png) no-repeat 50% 50%;
+	color: #FFF;
+	text-align: center;
+	line-height: 145px;
+	font-size: 37px;
+	position: relative;
+	top: -55px;
+}

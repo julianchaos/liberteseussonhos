@@ -6,8 +6,10 @@
  */
 ?>
 		<footer>
-			FOOTER
-			<?php wp_footer(); ?>
+			<div class="message">
+				libertese@liberteseussonhos.art.br
+			</div>
 		</footer>
 	</body>
+	<?php wp_footer(); ?>
 </html>
