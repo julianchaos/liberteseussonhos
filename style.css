@@ -42,11 +42,11 @@ header .logo {
 /* Vídeo */
 .content-video {
 	top: -120px;
-	height: 630px;
+	height: 500px;
 }
 .content-video div.iframe {
 	margin: 0 auto;
-	width: 853px;
+	width: 640px;
 	position: relative;
 	top: 260px;
 }
