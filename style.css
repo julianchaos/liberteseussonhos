@@ -55,3 +55,27 @@ header .logo {
 	width: 100%;
 	margin-top: -484px;
 }
+
+/* Typeform */
+.content-typeform h2,
+.content-typeform p {
+	font-family: verdana, arial;
+	text-align: center;
+	width: 900px;
+	margin: 0 auto;
+}
+.content-typeform h2 {
+	text-transform: uppercase;
+	font-size: 32px;
+	margin-top: 40px;
+	font-weight: normal;
+}
+.content-typeform p {
+	margin-top: 25px;
+	color: #555;
+}
+.content-typeform .typeform-widget {
+	height: 620px;
+	width: 900px;
+	margin: 0 auto;
+}
