@@ -7,6 +7,7 @@ Text Domain: liberteseussonhos
 body, html {
 	margin: 0;
 	padding: 0;
+	font-family: verdana, arial;
 }
 br.nobr {
 	width: 0;
@@ -20,8 +21,18 @@ header, section, article, footer {
 	z-index: 1;
 }
 
+h2 {
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: normal;
+}
+p {
+	color: #555;
+}
+
 .container {
 	min-width: 1261px;
+	margin: 0 auto;
 }
 
 /* HEADER */
@@ -59,23 +70,39 @@ header .logo {
 /* Typeform */
 .content-typeform h2,
 .content-typeform p {
-	font-family: verdana, arial;
 	text-align: center;
 	width: 900px;
 	margin: 0 auto;
 }
 .content-typeform h2 {
-	text-transform: uppercase;
-	font-size: 32px;
 	margin-top: 40px;
-	font-weight: normal;
 }
 .content-typeform p {
 	margin-top: 25px;
-	color: #555;
 }
 .content-typeform .typeform-widget {
 	height: 620px;
 	width: 900px;
 	margin: 0 auto;
+}
+
+/* Na Mídia */
+.content-namidia {
+	background-color: #f6f6f6;
+	padding: 30px 0;
+	margin: 40px 0;
+}
+.content-namidia .container{
+	min-width: 900px;
+	width: 900px;
+}
+.content-namidia .clipping {
+	width: 560px;
+	float: right;
+}
+.content-namidia .clipping a {
+	float: left;
+}
+.content-namidia .clipping a img {
+	border: 0 solid #FFF;
 }
