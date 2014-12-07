@@ -42,6 +42,7 @@ header .logo {
 /* Vídeo */
 .content-video {
 	top: -120px;
+	height: 630px;
 }
 .content-video div.iframe {
 	margin: 0 auto;
