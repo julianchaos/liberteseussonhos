@@ -52,19 +52,21 @@ header .logo {
 
 /* Vídeo */
 .content-video {
-	top: -120px;
-	height: 500px;
+	top: -90px;
+	height: 460px;
+}
+.content-video img.em-construcao {
+	margin-top: 25px;
+}
+body > img.bg {
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	top: -150px;
 }
 .content-video div.iframe {
-	margin: 0 auto;
+	margin: -110px auto 0;
 	width: 640px;
-	position: relative;
-	top: 260px;
-}
-.content-video > .container > img {
-	display: block;
-	width: 100%;
-	margin-top: -484px;
 }
 
 /* Typeform */
